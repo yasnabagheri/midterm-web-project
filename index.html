@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Midterm Exam |</title>
+    <title>Midterm Exam | fashion hub</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -59,15 +59,155 @@
 
     <main>
       <section class="main-section">
-        <div class="gallery">
-          <img src="assets/images/product-1.png" alt="product" />
-          <img src="assets/images/product-2.png" alt="product" />
-          <img src="assets/images/product-3.png" alt="product" />
-          <img src="assets/images/product-4.png" alt="product" />
-          <img src="assets/images/product-5.png" alt="product" />
+        <div class="product-gallery">
+          <div class="product-gallery__item product__gallery--first">
+            <img src="assets/images/product-1.png" alt="product" />
+          </div>
+
+          <div class="product-gallery__item gallery__product--second">
+            <img src="assets/images/product-2.png" alt="product" />
+          </div>
+
+          <div class="product-gallery__item gallery__product--third">
+            <img src="assets/images/product-3.png" alt="product" />
+          </div>
+
+          <div class="product-gallery__item gallery__product--forth">
+            <img src="assets/images/product-4.png" alt="product" />
+          </div>
+
+          <div class="product-gallery__item gallery__product--fifth">
+            <img src="assets/images/product-5.png" alt="product" />
+          </div>
         </div>
 
-        <div class="info"></div>
+        <div class="product-details">
+          <header class="product-details__header">
+            <span>Home</span>
+            <img src="assets/icons/arrow-right-gray.svg" alt="" />
+            <span>Fashion</span>
+            <img src="assets/icons/arrow-right-gray.svg" alt="" />
+            <span>Products</span>
+            <img src="assets/icons/arrow-right-gray.svg" alt="" />
+            <span>Skirts</span>
+            <img src="assets/icons/arrow-right-gray.svg" alt="" />
+            <span class="product-details__header--active">Coast Dress</span>
+          </header>
+
+          <div class="cost-dress">
+            <div class="cost-dress__txt">
+              <h3 class="cost-dress__txt__h3">Coast Dress</h3>
+              <p class="cost-dress__txt__p">
+                Breezy, versatile, seaside ready style
+              </p>
+            </div>
+
+            <div class="cost-dress__icons">
+              <div class="cost-dress__icons--like">
+                <img src="assets/icons/heart.svg" alt="" />
+                <span>109</span>
+              </div>
+              <img
+                src="assets/icons/archive.svg"
+                alt=""
+                class="cost-dress__icons--archive"
+              />
+              <img
+                src="assets/icons/share.svg"
+                alt=""
+                class="cost-dress__icons--share"
+              />
+            </div>
+          </div>
+
+          <div class="price">
+            <div class="price__label">
+              <span class="price__label--active">$710.99</span>
+              <span class="price__label--sml">$799.99</span>
+            </div>
+
+            <div class="price__actions">
+              <div class="price__actions__items">
+                <div class="price__actions__item star">
+                  <img src="assets/icons/star.svg" alt="" />
+                  <span>4.8</span>
+                </div>
+
+                <div class="price__actions__item comment">
+                  <img src="assets/icons/message.svg" alt="" />
+                  <span>67 Reviews</span>
+                </div>
+              </div>
+
+              <div class="price__actions__txt">
+                <p><span>93%</span>of buyers have recommended this.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-color">
+            <h4 class="product-color__title">Choose a Color</h4>
+            <div class="product-color__list">
+              <button
+                class="color-btn color-btn--active"
+                style="--color-bg: #e6d5c3"
+              >
+                <span class="color-btn__check"></span>
+              </button>
+
+              <button class="color-btn" style="--color-bg: #c3e6c3"></button>
+              <button class="color-btn" style="--color-bg: #c3d5e6"></button>
+              <button class="color-btn" style="--color-bg: #e6c3d5"></button>
+              <button class="color-btn" style="--color-bg: #a3c6a3"></button>
+              <button class="color-btn" style="--color-bg: #f8b4b4"></button>
+            </div>
+          </div>
+
+          <div class="product-size">
+            <h4 class="product-size__title">Choose a Size</h4>
+            <div class="product-size__list">
+              <label class="size-option">
+                <input type="radio" name="size" value="s" checked />
+                <div class="size-option__card">
+                  <span class="size-option__circle"></span>
+                  <span class="size-option__text">Small</span>
+                </div>
+              </label>
+
+              <label class="size-option">
+                <input type="radio" name="size" value="m" />
+                <div class="size-option__card">
+                  <span class="size-option__circle"></span>
+                  <span class="size-option__text">Medium</span>
+                </div>
+              </label>
+
+              <label class="size-option">
+                <input type="radio" name="size" value="l" />
+                <div class="size-option__card">
+                  <span class="size-option__circle"></span>
+                  <span class="size-option__text">Large</span>
+                </div>
+              </label>
+
+              <label class="size-option">
+                <input type="radio" name="size" value="xl" />
+                <div class="size-option__card">
+                  <span class="size-option__circle"></span>
+                  <span class="size-option__text">Extra Large</span>
+                </div>
+              </label>
+
+              <label class="size-option">
+                <input type="radio" name="size" value="xxl" />
+                <div class="size-option__card">
+                  <span class="size-option__circle"></span>
+                  <span class="size-option__text">XXL</span>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
