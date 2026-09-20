@@ -7,5 +7,68 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <div class="main-header__icon">
+        <img
+          src="assets/images/logo.png"
+          alt="icon"
+          class="main-header__logo"
+        />
+
+        <nav class="main-header__links">
+          <ul class="main-header__list">
+            <li class="main-header__list__item">
+              <a href="#" class="main-header__link">Category</a>
+            </li>
+            <li class="main-header__list__item">
+              <a href="#" class="main-header__link">Brand</a>
+            </li>
+            <li class="main-header__list__item">
+              <a href="#" class="main-header__link">Contact</a>
+            </li>
+            <li class="main-header__list__item">
+              <a href="#" class="main-header__link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main-header__actions">
+        <button aria-label="bag" class="main-header__actions__bag">
+          <img src="assets/icons/bag-brown.svg" alt="bag" />
+          <span class="main-header__actions__bag--num">1</span>
+        </button>
+        <button aria-label="bell" class="main-header__actions--bell">
+          <img src="assets/icons/notification.svg" alt="notification" />
+        </button>
+
+        <div class="main-header__user">
+          <img
+            src="assets/images/user-1.png"
+            alt="user"
+            class="main-header__actions__user"
+          />
+          <div class="main-header__user__txt">
+            <span class="main-header__user__txt--small">Good morning!</span>
+            <span class="main-header__user__txt--big">Scarlet Johonson</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="gallery">
+          <img src="assets/images/product-1.png" alt="product" />
+          <img src="assets/images/product-2.png" alt="product" />
+          <img src="assets/images/product-3.png" alt="product" />
+          <img src="assets/images/product-4.png" alt="product" />
+          <img src="assets/images/product-5.png" alt="product" />
+        </div>
+
+        <div class="info"></div>
+      </section>
+    </main>
+  </body>
 </html>
