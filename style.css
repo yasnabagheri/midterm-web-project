@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #3498db;
+  --color-secondary: #2ecc71;
+  --accent-color: #e74c3c;
+
+  --color-light: #777777;
+  --color-dark: #333;
+
+  --border-color: #ddd;
+
+  --radius-sm: 5px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+
+  --font-main: sans-serif;
+}
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
