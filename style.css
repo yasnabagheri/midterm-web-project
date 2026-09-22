@@ -681,6 +681,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 768px;
 }
 
 .reviews__txt-title {
