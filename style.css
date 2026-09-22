@@ -5,12 +5,13 @@
 
 :root {
   --color-primary: #0d3356;
-  --color-secondary: #2ecc71;
-  --accent-color: #e74c3c;
+  --color-secondary: #3a4980;
+  --accent-color: #d75951;
 
   --color-light: #b9bbbf;
-  --color-dark: #333;
-
+  --color-dark: #1d2939;
+  --color-gray: #6f7788;
+  --color-brown: #683e00;
   --border-color: #ddd;
 
   --font-main: Inter;
@@ -605,4 +606,130 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #6f7788;
+}
+
+.reviews {
+  padding: 40px 80px;
+}
+
+.reviews__title {
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--color-dark);
+}
+
+.reviews__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.reviews__item--first {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #eee;
+}
+
+.reviews__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 99px;
+}
+
+.reviews__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reviews__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviews__author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reviews__author-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-dark);
+}
+
+.reviews__date {
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.reviews__stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reviews__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviews__txt-title {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.reviews__desc {
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.reviews__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviews__btn {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  gap: 4px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reviews__btn--like {
+  color: var(--color-gray);
+}
+
+.reviews__btn--like:hover {
+  background-color: rgba(111, 119, 136, 0.15);
+}
+
+.reviews__btn--reply {
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.reviews__btn--reply:hover {
+  background-color: rgba(215, 90, 81, 0.15);
 }
