@@ -10,11 +10,12 @@
   <body>
     <header class="main-header">
       <div class="main-header__icon">
-        <img
-          src="assets/images/logo.png"
-          alt="icon"
-          class="main-header__logo"
-        />
+        <a href="."
+          ><img
+            src="assets/images/logo.png"
+            alt="icon"
+            class="main-header__logo"
+        /></a>
 
         <nav class="main-header__links">
           <ul class="main-header__list">
@@ -103,20 +104,30 @@
             </div>
 
             <div class="cost-dress__icons">
-              <div class="cost-dress__icons--like">
+              <button
+                type="button"
+                aria-label="like"
+                class="cost-dress__icons--like"
+              >
                 <img src="assets/icons/heart.svg" alt="" />
                 <span>109</span>
-              </div>
-              <img
-                src="assets/icons/archive.svg"
-                alt=""
+              </button>
+
+              <button
+                type="button"
+                aria-label="save"
                 class="cost-dress__icons--archive"
-              />
-              <img
-                src="assets/icons/share.svg"
-                alt=""
+              >
+                <img src="assets/icons/archive.svg" alt="" />
+              </button>
+
+              <button
+                type="button"
+                aria-label="share"
                 class="cost-dress__icons--share"
-              />
+              >
+                <img src="assets/icons/share.svg" alt="" />
+              </button>
             </div>
           </div>
 
@@ -133,10 +144,10 @@
                   <span>4.8</span>
                 </div>
 
-                <div class="price__actions__item comment">
+                <a href="#reviews" class="price__actions__item comment">
                   <img src="assets/icons/message.svg" alt="" />
                   <span>67 Reviews</span>
-                </div>
+                </a>
               </div>
 
               <div class="price__actions__txt">
@@ -264,7 +275,7 @@
         </div>
       </section>
 
-      <section class="reviews">
+      <section class="reviews" id="reviews">
         <h2 class="reviews__title">Reviews</h2>
 
         <div class="reviews__items">
@@ -393,7 +404,6 @@
         <h2 class="similar-items__title">Similar Items You Might Also Like</h2>
 
         <div class="similar-items__cards">
-          <!-- کارت محصول -->
           <article class="product-card">
             <div class="product-card__image-container">
               <img
@@ -401,7 +411,11 @@
                 alt="Cotton Slip"
                 class="product-card__img"
               />
-              <button class="product-card__wishlist" aria-label="like">
+              <button
+                type="button"
+                class="product-card__wishlist"
+                aria-label="like"
+              >
                 <img src="assets/icons/heart.svg" alt="like" />
               </button>
             </div>
@@ -421,7 +435,6 @@
             </div>
           </article>
 
-          <!-- کارت محصول -->
           <article class="product-card">
             <div class="product-card__image-container">
               <img
