@@ -7,6 +7,8 @@ This is a simple and clean page for a fashion store called **FashionHub**. It sh
  
 FashionHub is a modern and clean product page for a clothing brand. This project focuses on the "Coast Dress" and shows how a customer can see product details, pick a color, and choose a size in a simple and beautiful way.
 
+![FashionHub Preview](assets/images/preview.png)
+
 ## 🛠 Technologies Used
 - **HTML5**
 - **CSS3** 
