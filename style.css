@@ -446,13 +446,15 @@ body {
 }
 
 .color-btn__check {
-  color: white;
-  font-size: 14px;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
-.color-btn--active .color-btn__check {
-  display: block;
+.color-btn:hover .color-btn__check {
+  opacity: 1;
 }
 
 .product-size {
