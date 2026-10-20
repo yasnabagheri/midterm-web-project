@@ -120,8 +120,8 @@ body {
   height: 48px;
   border-radius: 50%;
   position: relative;
+  transition: all 0.2s ease;
   background-color: rgba(104, 62, 0, 0.1);
-  transition: all 0.5s ease;
 }
 
 .main-header__actions__bag--num {
@@ -140,22 +140,23 @@ body {
 }
 
 .main-header__actions__bag:hover {
-  box-shadow: 0 0 15px rgba(58, 73, 128, 0.4);
-  /* transform: scale(1.05); */
+  box-shadow: 0 0 8px  rgba(104, 62, 0, 0.2);
+  background-color: rgba(104, 62, 0, 0.15);
 }
 
 .main-header__actions--bell {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   background-color: rgba(13, 51, 86, 0.1);
 }
 
 .main-header__actions--bell:hover {
   /* background-color: rgba(58, 73, 128, 0.4); */
   /* box-shadow: 0 0 15px rgba(104, 62, 0, 0.1); */
-  box-shadow: 0 0 15px rgba(58, 73, 128, 0.4);
+  box-shadow: 0 0 8px rgba(58, 73, 128, 0.2);
+  background-color: rgba(13, 51, 86, 0.15);
 }
 
 .main-header__user {
